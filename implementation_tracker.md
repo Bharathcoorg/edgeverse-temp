@@ -138,18 +138,18 @@ The Sovereign Rollup Framework enables independent chains without dedicated vali
 | D2 | Add namespaced Merkle trees | HIGH | � Completed | D1 | Efficient data organization for rollup-specific data |
 | D3 | Implement fraud proofs for data unavailability | HIGH | � Completed | D1, D2 | Allow proving data is unavailable |
 | D4 | Create data availability committees | MEDIUM | � Completed | D1-D3 | Specialized nodes for DA verification |
-| D5 | Optimize light client for DA sampling | HIGH | 🔴 Not Started | D1 | Make light clients efficient at DA sampling |
-| D6 | Implement data availability API | MEDIUM | 🔴 Not Started | D1-D5 | API for interacting with the DA layer |
-| D7 | Add data availability metrics and monitoring | LOW | 🔴 Not Started | D1-D6 | Track DA performance and reliability |
-| D8 | Create DA layer documentation | MEDIUM | 🔴 Not Started | D1-D7 | Comprehensive documentation for the DA layer |
-| D9 | Implement erasure coding for data redundancy | HIGH | 🔴 Not Started | D1 | Reed-Solomon coding for data recovery |
-| D10 | Add data availability oracle | MEDIUM | 🔴 Not Started | D1-D4 | Bridge DA attestations to other chains |
-| D11 | Implement data pruning and archival policies | MEDIUM | 🔴 Not Started | D1, D2 | Manage long-term data storage efficiently |
-| D12 | Create data availability economic model | HIGH | 🔴 Not Started | D1-D6 | Incentives for data providers |
-| D13 | Implement blob transaction support | HIGH | 🔴 Not Started | D1, D2 | Support for large data blobs in transactions |
-| D14 | Develop rollup-specific data namespaces | HIGH | 🔴 Not Started | D1, D2 | Isolate and organize data by rollup |
-| D15 | Implement cross-rollup data sharing | MEDIUM | 🔴 Not Started | D1, D2, D14 | Allow controlled data sharing between rollups |
-| D16 | Create JAM-compatible data availability proofs | CRITICAL | 🔴 Not Started | D1, D3 | Proofs compatible with JAM's security model |
+| D5 | Optimize light client for DA sampling | HIGH | � Completed | D1 | Make light clients efficient at DA sampling |
+| D6 | Implement data availability API | MEDIUM | � Completed | D1-D5 | API for interacting with the DA layer |
+| D7 | Add data availability metrics and monitoring | LOW | � Completed | D1-D6 | Track DA performance and reliability |
+| D8 | Create DA layer documentation | MEDIUM | � Completed | D1-D7 | Comprehensive documentation for the DA layer |
+| D9 | Implement erasure coding for data redundancy | HIGH | � Completed | D1 | Reed-Solomon coding for data recovery |
+| D10 | Add data availability oracle | MEDIUM | � Completed | D1-D4 | Bridge DA attestations to other chains |
+| D11 | Implement data pruning and archival policies | MEDIUM | � Completed | D1, D2 | Manage long-term data storage efficiently |
+| D12 | Create data availability economic model | HIGH | � Completed | D1-D6 | Incentives for data providers |
+| D13 | Implement blob transaction support | HIGH | � Completed | D1, D2 | Support for large data blobs in transactions |
+| D14 | Develop rollup-specific data namespaces | HIGH | � Completed | D1, D2 | Isolate and organize data by rollup |
+| D15 | Implement cross-rollup data sharing | MEDIUM | � Completed | D1, D2, D14 | Allow controlled data sharing between rollups |
+| D16 | Create JAM-compatible data availability proofs | CRITICAL | � Completed | D1, D3 | Proofs compatible with JAM's security model |
 
 ### 3. Sovereign Rollup Framework
 
@@ -184,9 +184,9 @@ The Sovereign Rollup Framework enables independent chains without dedicated vali
 | J6 | Implement full testing framework | HIGH | 🔴 Not Started | J1-J5 | Comprehensive testing for all components |
 | J7 | Create system documentation | MEDIUM | 🔴 Not Started | J1-J6 | Comprehensive documentation for the system |
 | J8 | Implement advanced mempool management | HIGH | 🔴 Not Started | J4 | Prioritization and fee market for transactions |
-| J9 | Add support for multiple VM environments | HIGH | 🔴 Not Started | J3 | Support for additional VMs beyond EVM |
-| J10 | Implement state pruning and archival | MEDIUM | 🔴 Not Started | J3 | Efficient state management for nodes |
-| J11 | Create node monitoring and management tools | MEDIUM | 🔴 Not Started | J1-J5 | Tools for monitoring and managing nodes |
+| J9 | Add support for multiple VM environments | HIGH | 🟢 Completed | J3 | Support for additional VMs beyond EVM |
+| J10 | Implement state pruning and archival | MEDIUM | 🟢 Completed | J3 | Efficient state management for nodes |
+| J11 | Create node monitoring and management tools | MEDIUM | 🟢 Completed | J1-J5 | Tools for monitoring and managing nodes |
 | J12 | Implement chain upgrade mechanism | HIGH | 🔴 Not Started | J1-J3 | Mechanism for upgrading the system safely |
 | J13 | Develop JAM-compatible fraud proofs | HIGH | 🔴 Not Started | J1, J2 | Fraud proofs that work with JAM's security |
 | J14 | Implement work result verification | CRITICAL | 🔴 Not Started | J1, J2 | Verify work results without validators |
