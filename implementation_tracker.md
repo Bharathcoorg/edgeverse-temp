@@ -130,14 +130,14 @@ The Sovereign Rollup Framework enables independent chains without dedicated vali
 | S11 | Create sequencer documentation and guides | LOW | 🟢 Completed | S1-S10 | Comprehensive documentation for operators |
 | S12 | Implement cross-rollup transaction ordering | MEDIUM | 🟢 Completed | S1, S4 | Coordinate ordering across multiple rollups |
 
-### 2. Celestia-Style Data Availability Layer
+### 2. Edgeverse Data Availability Layer
 
 | ID | Task | Priority | Status | Dependencies | Notes |
 |----|------|----------|--------|--------------|-------|
-| D1 | Implement data availability sampling | CRITICAL | 🔴 Not Started | None | Core Celestia-style DA functionality |
-| D2 | Add namespaced Merkle trees | HIGH | 🔴 Not Started | D1 | Efficient data organization for rollup-specific data |
-| D3 | Implement fraud proofs for data unavailability | HIGH | 🔴 Not Started | D1, D2 | Allow proving data is unavailable |
-| D4 | Create data availability committees | MEDIUM | 🔴 Not Started | D1-D3 | Specialized nodes for DA verification |
+| D1 | Implement data availability sampling | CRITICAL | � Completed | None | Core Edgeverse-style DA functionality |
+| D2 | Add namespaced Merkle trees | HIGH | � Completed | D1 | Efficient data organization for rollup-specific data |
+| D3 | Implement fraud proofs for data unavailability | HIGH | � Completed | D1, D2 | Allow proving data is unavailable |
+| D4 | Create data availability committees | MEDIUM | � Completed | D1-D3 | Specialized nodes for DA verification |
 | D5 | Optimize light client for DA sampling | HIGH | 🔴 Not Started | D1 | Make light clients efficient at DA sampling |
 | D6 | Implement data availability API | MEDIUM | 🔴 Not Started | D1-D5 | API for interacting with the DA layer |
 | D7 | Add data availability metrics and monitoring | LOW | 🔴 Not Started | D1-D6 | Track DA performance and reliability |
